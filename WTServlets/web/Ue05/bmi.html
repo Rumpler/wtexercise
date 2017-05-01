@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>BMI</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <a href="http://localhost:8080/WTServlets/index.html">Back to menue</a><br><br>
+        <div>
+            <h3>Put in your values to get your BMI with servlet-technology</h3>
+            <form action="http://localhost:8080/WTServlets/bmi" method="GET">
+                Size (m): <input type="text" name="sizeServlet">
+                Weight (kg): <input type="text" name="weightServlet">
+                <input type="submit" name="submitServlet" value="Submit">
+            </form>
+            
+            <br>
+            
+            <h3>Put in your values to get your BMI with JSP-technology</h3>
+            <form action="./bmi.jsp" method="GET">
+                Size (m): <input type="text" name="sizeJSP">
+                Weight (kg): <input type="text" name="weightJSP">
+                <input type="submit" name="submitJSP" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
